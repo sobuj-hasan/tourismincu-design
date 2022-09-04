@@ -1,3 +1,15 @@
+@media only screen and (max-width:1470px) {
+    .banner-content .content {
+        position: absolute;
+        top: 150px;
+        left: 46%;
+        transform: translateX(-50%);
+    }
+    .search-bar .search-content {
+        width: 123%;
+    }
+}
+
 @media only screen and (max-width:991px) {}
 
 

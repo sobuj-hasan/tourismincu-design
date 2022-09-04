@@ -52,11 +52,11 @@ header {
 }
 .menubar sup{
     background-color: var(--rc);
-    padding: 5px;
+    padding: 4px;
     border-radius: 50px;
     color: var(--wc);
-    margin-left: -4px;
-    font-size: 12px;
+    margin-left: -7px;
+    font-size: 11px;
 }
 .menubar ul li {
     display: inline-block;
@@ -245,39 +245,294 @@ header {
 /*MOBILE MENU END*/
 
 /* BANNER PART CSS START  */
-.banner{
-    background-image: url(../img/photos/Top-banner-choice---01.png);
+.banner-img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .banner-overlay {
-    background-color: #2e00444f;
-    padding: 100px 0px;
+    background-color: var(--overlay);
+    padding: 200px 0px;
+}
+.banner-part{
+    position: relative;
+}
+.banner-content .content {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section-title h2,p{
+    color: var(--wc);
+}
+
+/* search bar */
+.nav-pills .nav-link {
+    background: var(--vc);
+    color: var(--wc);
+    margin: 0px 2px;
+    font-weight: 500;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: var(--rc);
+}
+.search-bar .search-content {
+    background: var(--wc);
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-top: -12px;
+}
+.search-content button{
+    background: var(--wc);
+}
+.search-item h6 {
+    color: var(--arc);
+    font-size: 16px;
+    line-height: 24px;
+}
+.search-item span {
+    font-weight: 500;
+    font-size: 10px;
+    color: var(--rc);
+}
+.search-content .src-btn button {
+    background: var(--rc);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--wc);
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+.search-content .src-btn button:hover{
+    background-color: var(--vc);
 }
 /* BANNER PART CSS END  */
 
+/* 50% IMAGE PART CSS START  */
+.fifty-percentoff .image-item{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fifty-percentoff .image-item-overlay {
+    background-color: var(--overlay);
+    transition: .4s ease-in-out;
+    border-radius: 10px;
+}
+.fifty-percentoff .image-item:hover .image-item-overlay{
+    background-color: #2f004472;
+}
+.fifty-percentoff .content{
+    padding: 0px 20px;
+}
+.fifty-percentoff .content h5{
+    color: var(--wc);
+    transition: .4s ease;
+}
+.fifty-percentoff .content h3{
+    color: var(--wc);
+}
+.fifty-percentoff .small-text{
+    color: var(--wc);
+}
+/* 50% IMAGE PART CSS END  */
 
+/* TOP DESTINATION PART CSS START  */
+.top-destination-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+.top-destination-image-overlay {
+    background-color: var(--overlay);
+    transition: .5s ease-in-out;
+    padding: 20px 10px;
+}
+.top-destination-image:hover .top-destination-image-overlay{
+    background-color: #2f004472;
+}
 
+.top-destination-image h4 {
+    color: var(--wc);
+    font-weight: 500;
+    font-size: 24px;
+}
+.top-destination-image span{
+    font-weight: 500;
+    font-size: 12px;
+    background: var(--rc);
+    padding: 5px 10px;
+    color: var(--wc);
+    border-radius: 5px;
+}
+.top-destination-image ul li{
+    font-weight: 300;
+    font-size: 12px;
+    color: var(--wc);
+}
+.top-destination-image ul li:last-child{
+    border-right: none;
+}
 
+.view-btn a{
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--wc);
+    background: var(--vc);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+/* TOP DESTINATION PART CSS END  */
 
+/* CTEATE YOUR OWN BANNER PART CSS START  */
+.own-banner{
+    background-image: url(../img/photos/create-your-own-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.own-banner-overlay{
+    background-color: var(--overlay);
+    padding: 90px 0px;
+}
+.own-banner h3{
+    font-size: 32px;
+    color: var(--wc);
+}
+.own-banner p{
+    max-width: 550px;
+}
+.own-banner .custom-btn a {
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+/* CTEATE YOUR OWN BANNER PART CSS END  */
 
+/* SPECIAL PACKAGE PART CSS START  */
+.special-package .card{
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.special-package .card a{
+    color: var(--arc);
+    transition: .5s ease;
+}
+.special-package .card a:hover{
+    color: var(--vc);
+}
+.special-package .card i{
+    font-size: 22px;
+    cursor: pointer;
+}
+.special-package .card p{
+    color: #9E9E9E;
+    font-size: 15px;
+}
+.special-package .card h6 {
+    color: var(--arc);
+    line-height: 10px;
+}
+hr.special-package{
+    color: var(--arc);
+    height: 1px;
+}
+.special-package .book-now a {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--rc);
+    transition: .4s ease;
+}
+.special-package .book-now i{
+    font-size: 16px;
+    margin-left: 8px;
+    color: var(--rc);
+    margin-top: 3px;
+    transition: .4s ease;
+}
+.special-package .book-now:hover a{
+    color: var(--vc);
+}
+.special-package .book-now:hover i{
+    color: var(--vc);
+}
 
+/* SPECIAL PACKAGE PART CSS END  */
 
+/* NEAR YOUR LOCATION PART CSS START  */
+.near-your-location .near-place{
+    width: 100%;
+}
+.near-your-location .near-place img{
+    max-height: 450px;
+}
+.near-your-location .place-location{
+    width: 100%;
+}
+.near-your-location .place-location img{
+    max-height: 450px;
+}
+/* NEAR YOUR LOCATION PART CSS END  */
 
+/* GALLERY IMAGE PART CSS START  */
+.image-gallery .gallery{
+    width: 100%;
+    cursor: pointer;
+}
+.image-gallery .gallery img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* GALLERY IMAGE PART CSS END  */
 
-
-
-
-
-
-
-
+/* SUBSCRIBE PART CSS START  */
+.subscribe-part .text{
+    background: #f5f5f5;
+    border: 1px solid var(--gc);
+    padding: 20px 20px;
+    width: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.subscribe-part h4{
+    color: var(--arc);
+}
+.subscribe-part .text .custom-control{
+    height: 40px;
+    font-size: 16px;
+    border: var(--arc);
+    outline: none;
+    width: 80%;
+    border: 1px solid var(--gc);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+}
+.subscribe-part .text button{
+    height: 40px;
+    background: var(--rc);
+    color: var(--wc);
+    font-size: 14px;
+    transition: .5s ease;
+    outline: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.subscribe-part .text button:hover{
+    background: var(--vc);
+}
+/* SUBSCRIBE PART CSS END  */
 
 /*FOOTER SECTION*/
 footer {
-    background: #ffffff;
-    color: var(--sc);
+    background: var(--f0c);
+    color: var(--arc);
 }
 
 .footer-box img {
@@ -289,68 +544,53 @@ footer {
 .footer-box p {
     color: var(--sc);
 }
-
 .footer-box h6 {
-    font-weight: 700;
+    font-weight: 500;
     border-bottom: 1px solid var(--gc);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .footer-box h6 {
     padding-bottom: 13px;
 }
-
 .footer-menu a {
     display: block;
-    color: var(--sc);
+    color: var(--arc);
     padding: 6px 0;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 400;
 }
-
 .footer-box ul li {
     padding: 6px 0;
 }
-
 .social-media-footer h4 {
     border-bottom: 1px solid var(--gc);
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 40px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
 }
-
 .social-media-footer a i {
     height: 25px;
     width: 25px;
     line-height: 25px;
-    color: var(--sc);
-    background: var(--wc);
+    color: var(--wc);
+    background: var(--vc);
     border: 1px solid var(--sc);
     text-align: center;
     border-radius: 50%;
     margin-right: 8px;
     transition: .3s;
 }
-
 .social-media-footer a i:hover {
     color: var(--wc);
-    background: var(--sc);
+    background: var(--vc);
 }
-
-/*FOOTER SECTION END*/
-
-/*COPYRIGHT SECTION*/
-.copyright-section p {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    color: var(--sc);
-    font-size: 16px;
-    font-weight: 500;
-    padding: 40px 0;
-    border-top: 1px solid var(--gc);
+.copyright{
+    background: #e4e4e4;
 }
-
+.copyright p{
+    color: var(--arc);
+}
 /*COPYRIGHT SECTION END*/
