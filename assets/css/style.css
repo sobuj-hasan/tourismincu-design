@@ -512,7 +512,7 @@ hr.special-package{
     border-bottom-left-radius: 5px;
     padding-left: 10px;
 }
-.subscribe-part .text button{
+.subscribe-part .text button {
     height: 40px;
     background: var(--rc);
     color: var(--wc);
@@ -523,11 +523,157 @@ hr.special-package{
     border-bottom-left-radius: 0px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: none;
 }
 .subscribe-part .text button:hover{
     background: var(--vc);
 }
 /* SUBSCRIBE PART CSS END  */
+
+/* ====================================
+    Search Result Page Css 
+==================================== */
+.available-package .dropdown-btn {
+    background: var(--wc);
+    border: 1px solid var(--vc);
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 18px;
+    border-radius: 50px;
+}
+.available-package .rating i{
+    font-size: 14px;
+    color: var(--cyc);
+}
+.available-package .card-end span{
+    font-weight: 300;
+    font-size: 12px;
+    color: #424242;
+}
+.available-package .view-btn a{
+    background: var(--rc);
+    color: var(--wc);
+    transition: .5 ease-in-out;
+}
+.available-package .view-btn a:hover{
+    background: var(--vc);
+    color: var(--wc);
+}
+
+
+/* ====================================
+    Package Details Page Css 
+==================================== */
+.rating p{
+    color: var(--sc);
+    margin-left: 10px;
+}
+.aboutus-text p{
+    color: var(--arc);
+}
+.facilities ul li span {
+    font-size: 15px;
+    margin-left: 10px;
+}
+.avility-card {
+    border: 1px solid var(--gc);
+    border-radius: 10px;
+    padding: 20px;
+}
+.avility-card h6{
+    font-weight: 500;
+    font-size: 14px;
+}
+.avility-card .custom-control {
+    height: 38px;
+    border: 1px solid var(--gc);
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    width: 95%;
+}
+.quantity .custom-control {
+    width: 60%;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.quantity p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+    margin-top: -3px;
+}
+
+.check-ability-btn button {
+    font-weight: 400;
+    font-size: 15px;
+    background: #00B6DD;
+    color: var(--wc);
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+.check-ability-btn button:hover{
+    background: var(--vc);
+}
+
+.more-image{
+    padding: 8px;
+}
+
+
+
+/* ====================================
+    Contact us page CSS 
+==================================== */
+.about-contact {
+    background: #FAFAFA;
+}
+.map {
+    background: #FAFAFA;
+}
+.address .section-content h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: var(--bc);
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+}
+.address .section-content p {
+    color: var(--bc);
+}
+.address .contact h4 {
+    color: var(--bc);
+}
+.address .contact {
+    background: #f2fbff7a;
+    box-shadow: 10px 10px 20px -7px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.address .contact button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--wc);
+    background: var(--rc);
+    border-radius: 7px;
+    border: none;
+    padding: 13px 35px;
+    margin-top: 30px;
+}
+.form-control {
+    border: 1px solid var(--wc);
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 52px;
+    box-shadow: 5px 5px 10px 0px #00000026;
+}
+.map h4 {
+    color: var(--pc);
+}
+
+
 
 /*FOOTER SECTION*/
 footer {
